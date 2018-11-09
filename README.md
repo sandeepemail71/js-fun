@@ -1,5 +1,5 @@
 # js-fun
-## Finding elements in array which are not unique in array
+## Frequency of a given number in given Array
 ### First way
 ```js
  var arr = [5, 5, 5, 2, 2, 2, 2, 2, 9, 4];
@@ -15,7 +15,7 @@
 }
 console.log(count(arr, 5));
 ```
-### Second way
+### Second way usin reduce fn
 ```js
 var data = [5, 5, 5, 2, 2, 2, 2, 2, 9, 4]
 
@@ -24,7 +24,7 @@ function count(arr, ele) {
 }
 console.log(count(arr, 5));
 ```
-### Third way
+### Third way using Map
 ```js
 var data = [5, 5, 5, 2, 2, 2, 2, 2, 9, 4]
 
@@ -35,7 +35,7 @@ function count(arr, ele) {
 }
 console.log(count(arr, 5);
 ```
-### Fourth way
+### Fourth way using filter
 ```js 
 var data = [5, 5, 5, 2, 2, 2, 2, 2, 9, 4]
 function count(arr, ele){
